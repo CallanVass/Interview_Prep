@@ -59,15 +59,19 @@ Functions were set up in the same file, which allowed me to display options to t
 
 Next, classes were set up for instantiating objects. These objects included Characters, their Inventories, the Notebook players could write in, and finally the Rooms players would enter.
 
-The main.py file (where the game loop runs) begins by playing an introduction, then goes
+The main.py file (where the game loop runs) begins by playing an introduction, then goes on to the main while loop, while True. The functions help to bring up options for the player. Once the player escapes one room, another while loop is started. When they return to the previous, the loop is ended. Players can fail by losing all of their health during combat encounters with guards, or in the final fight with Dracula.
 
 ### Hardest part about creating it?
 
+At many points it was easy to forget how the loop logic functioned with the while loops, which led to lots of confused moments, all of which required playthoughs for testing.
+
 ### Something you enjoyed?
+
+This was my first real exposure to coding something by myself, and I felt really proud with the end product. My favourite part was probably the feeling of competence that accompanied completing a project by myself with so many (relative) moving parts (OOP, Functions, imports, modules, loops, coditional logic).
 
 ### What would you fix going forward?
 
-I would program the next loop of rooms as the last option each time, meaning that navigating the main.py module would become easier. I would also simplify the system of having to display prompts and inputs in main.py so that less was needed to be typed each time.
+I would program the next loop of rooms as the last option each time, meaning that navigating the main.py module would become easier. I would also simplify the system of having to display prompts and inputs in main.py so that less was needed to be typed each time. The text printed after selecting an option could also have been modularised so it didn't clutter the main file.
 
 ### What's something you learned?
 
