@@ -2,47 +2,47 @@
 
 ## TalentForge API
 
-What is it?
+### What is it?
 
-How was it built?
+### How was it built?
 
-Hardest part about creating it?
+### Hardest part about creating it?
 
-Something you enjoyed?
+### Something you enjoyed?
 
-What would you fix going forward?
+### What would you fix going forward?
 
-What's something you learned?
+### What's something you learned?
 
 
 ## TalentForge Front-End
 
-What is it?
+### What is it?
 
-How was it built?
+### How was it built?
 
-Hardest part about creating it?
+### Hardest part about creating it?
 
-Something you enjoyed?
+### Something you enjoyed?
 
-What would you fix going forward?
+### What would you fix going forward?
 
-What's something you learned?
+### What's something you learned?
 
 
 ## Flask API
 
-What is it?
+### What is it?
 
-How was it built?
+### How was it built?
 
-Hardest part about creating it?
+### Hardest part about creating it?
 
-Something you enjoyed?
+### Something you enjoyed?
 
-What would you fix going forward?
+### What would you fix going forward?
 
-What's something you learned?
+### What's something you learned?
 
 
 ## Dracula's Castle (CL Application)
