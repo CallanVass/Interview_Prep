@@ -34,15 +34,31 @@
 
 ### What is it?
 
+Flask API is a project built for Coder Academy that allows the Partnerships team to keep track of the status of each student throughout their internship journey. It makes use of an ORM (SQLAlchemy) which interacts with a PostgreSQL (relational) database and features many endpoints, such as those to see users, companies, and individual internships.
+
 ### How was it built?
+
+Flask API was built by completing the documentation first. Documentation was important with this project as it was much larger scale than Dracula's Castle. I needed to know where I was going, even if the direction somehow changed during. Outlines are important. I drew up and ERD (Entity Relationship Diagram) for my database, decided which endpoints I would be including, and then decided on any extra features I wanted to include in the final release if I had time (email features and logging feature).
+
+After this I created modularised files for the blueprints which held the individual routes, and model files which containted the models and schema which Postgres and Marshmallow (ORM) would operate on to create and enforce tables and schema. I also used .env files to hide the variables in the .gitignore, but created a sample for the documentation to show how you're supposed to make it work.
+
+I also used JWT tokens that were served to the user upon logging in and checked by the decorators on each route. This JWT binds to the email address and checks against it to determine if the user in an admin or not (Authorization).
 
 ### Hardest part about creating it?
 
+The fundamental logic involved was much more difficult than Dracula's Castle. Also, there were so many packages, I feel as though it was hard to truly understand them with how quickly I had to move. Great exposure, but familiarity would have gone a long way.
+
 ### Something you enjoyed?
+
+I enjoyed implementing the email and logging features the most. There's something magical about being able to send an email with programming, and it was something I got to do entirely for myself (unecessary for the project itself).
 
 ### What would you fix going forward?
 
+The Authentication wasn't properly configured, as I couldn't figure out a way to verify teachers and students from admins, which was important because there were some things teachers could do even if they weren't admins. I suspect I would have to go back and redo the ERD to change teachers and students into just "users", or similar.
+
 ### What's something you learned?
+
+I learned a lot about ORM functionality and SQL databases (querying and logistics). I loved learning about relational databases, and hope to work with them somewhere in the future.
 
 
 ## Dracula's Castle (CL Application)
