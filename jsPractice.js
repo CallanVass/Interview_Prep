@@ -72,3 +72,10 @@ object[55] = 88
 
 console.log(object[55])
 
+
+
+let sixteen = 16
+
+while (sixteen < 17) {
+    console.log("sixteen help!")
+}

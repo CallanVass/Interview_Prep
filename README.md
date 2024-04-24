@@ -34,7 +34,7 @@
 
 ### What is it?
 
-Flask API is a project built for Coder Academy that allows the Partnerships team to keep track of the status of each student throughout their internship journey. It makes use of an ORM (SQLAlchemy) which interacts with a PostgreSQL (relational) database and features many endpoints, such as those to see users, companies, and individual internships.
+Flask API is a project built for Coder Academy that allows the Partnerships team to keep track of the status of each student throughout their internship journey. It makes use of an ORM (Marshmallow) which interacts with a PostgreSQL (relational) database and features many endpoints, such as those to see users, companies, and individual internships.
 
 ### How was it built?
 
@@ -83,7 +83,7 @@ At many points it was easy to forget how the loop logic functioned with the whil
 
 ### Something you enjoyed?
 
-This was my first real exposure to coding something by myself, and I felt really proud with the end product. My favourite part was probably the feeling of competence that accompanied completing a project by myself with so many (relative) moving parts (OOP, Functions, imports, modules, loops, coditional logic).
+This was my first real exposure to coding something by myself, and I felt really proud with the end product. My favourite part was probably the feeling of competence that accompanied completing a project by myself with so many (relative) moving parts (OOP, Functions, imports, modules, loops, conditional logic).
 
 ### What would you fix going forward?
 
