@@ -70,12 +70,22 @@ const object = {
 
 object[55] = 88
 
-console.log(object[55])
+// console.log(object[55])
 
 
 
-let sixteen = 16
+// let sixteen = 16
 
-while (sixteen < 17) {
-    console.log("sixteen help!")
+// while (sixteen < 17) {
+//     console.log("sixteen help!")
+// }
+
+function printTwelve(variable) {
+    // Below is an example of interpolation
+    console.log(`Oh my god the number is ${variable}!`)
 }
+
+var twelve = 17 + 16
+// console.log(twelve)
+
+printTwelve(twelve)
