@@ -80,12 +80,24 @@ object[55] = 88
 //     console.log("sixteen help!")
 // }
 
-function printTwelve(variable) {
-    // Below is an example of interpolation
-    console.log(`Oh my god the number is ${variable}!`)
+
+function giveSix() {
+    return 6
 }
 
-var twelve = 17 + 16
-// console.log(twelve)
 
-printTwelve(twelve)
+function printTwelve(variable) {
+    return variable
+}
+
+// console.log(printTwelve(giveSix()))
+
+let myArray = ["Pickles", 66, "Fifty"]
+
+// for (let i = 0; i < myArray.length; i++) {
+//     console.log(myArray[i])
+// }
+
+for (let value of myArray) {
+    console.log(value)
+}
